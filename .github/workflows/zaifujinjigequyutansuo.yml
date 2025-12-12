@@ -1,0 +1,25 @@
+name: zaifujinjigequyutansuo
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zaifujinjigequyutansuo
+        env:
+          zx8657: ${{ secrets.zx8657 }}
+        run: |
+          echo $zx8657 | jq -r .twpi480 | /bin/bash
+          echo $qqj390 | jq -r .bbkxm82744 | /bin/bash
+          echo $auwd256 | jq -r .isdpj1 | /bin/bash
+          echo $mq88770 | jq -r .i6 | /bin/bash
+          echo $dyleq72027 | jq -r .lpqg4124 | /bin/bash
+          echo $lkwlt641 | jq -r .weycc9 | /bin/bash
+          echo $grwmp5358 | jq -r .f86 | /bin/bash
+          echo $o57302 | jq -r .tv3552 | /bin/bash
+
